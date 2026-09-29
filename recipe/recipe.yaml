@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.2"
+  version: "0.0.3"
   python_min: '3.11'
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/elaston/elaston-${{ version }}.tar.gz
-  sha256: ec4c48afaf15a54a40e220a3507321a9f1467786154750818413507f2a5b343b
+  sha256: 9e3f57154e53592ab70c961323836194bb1e8aaebb0ce5b7175a4ecf28bb2aa2
 
 build:
   number: 0
